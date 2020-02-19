@@ -42,3 +42,7 @@ def find_a(array)
     letter_a.start_with?("a")
   end
 end
+
+def sum_array(integers)
+  integers.inject{|sum, n| sum + n }
+end
