@@ -39,6 +39,6 @@ end
 
 def find_a(array)
   array.select do |letter_a|
-    letter_a.starts_with?("a")
+    letter_a.start_with?("a")
   end
 end
